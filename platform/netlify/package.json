@@ -1,0 +1,17 @@
+{
+  "name": "deeplx-serverless",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.12.4",
+  "scripts": {
+    "start": "netlify dev BROWSER=none",
+    "deploy": "netlify deploy"
+  },
+  "dependencies": {
+    "deeplx-serverless": "github:lete114/deeplx-serverless#v0.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "netlify-cli": "^22.2.1"
+  }
+}
